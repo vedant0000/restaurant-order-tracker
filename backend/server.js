@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb+srv://hulevedant_db_user:vhSYxf8HsCIBT8bw@vedantcluster.huqfoir.mongodb.net/restaurantDB?retryWrites=true&w=majority";
+const uri = "Add your API key";
 const client = new MongoClient(uri);
 let db;
 
